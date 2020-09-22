@@ -4,7 +4,7 @@
   <groupId>devops.ilp1</groupId>
   <artifactId>ILP</artifactId>
   <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0</version>
   <name>ILP1UserMgmt Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -65,7 +65,7 @@
 		
   </dependencies>
   <build>
-    <finalName>ILP_Bookstore</finalName>
+    <finalName>Bookstore</finalName>
 
 	<plugins>
 			<plugin>
@@ -136,7 +136,7 @@
 				<version>2.2</version>
 				<configuration>
 					<port>6080</port>
-					<path>/ILP_Bookstore</path>
+					<path>/Bookstore</path>
 				</configuration>
 				<executions>
 					<execution>
@@ -203,7 +203,7 @@
 					<configuration>
 						<url>http://localhost:5050/manager/text</url>
 						<server>myserver</server>
-						<path>/ILP_Bookstore</path>
+						<path>/Bookstore</path>
                    		 <update>true</update>
                    		 <username>admin</username>
                    		 <password>admin</password>
