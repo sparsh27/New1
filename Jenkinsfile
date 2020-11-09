@@ -6,13 +6,7 @@ pipeline{
     }
     stages{
         
-        stage('Scm Checkout'){
-            steps{
-                
-                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'Github', url: 'https://github.com/sparsh27/New1.git']]])
-            }
-            
-            }
+       
         stage('Maven build') {
             
             steps{
